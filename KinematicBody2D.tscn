@@ -71,18 +71,3 @@ texture = ExtResource( 1 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D3"]
 position = Vector2( -1.0722, 244.469 )
 shape = SubResource( 2 )
-
-[node name="StaticBody2D4" type="StaticBody2D" parent="."]
-position = Vector2( 381.715, 172.702 )
-__meta__ = {
-"_edit_group_": true
-}
-
-[node name="Sprite" type="Sprite" parent="StaticBody2D4"]
-modulate = Color( 0.12549, 0.0156863, 0.0156863, 1 )
-position = Vector2( 3.23658, 246.071 )
-texture = ExtResource( 1 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D4"]
-position = Vector2( -1.0722, 244.469 )
-shape = SubResource( 2 )
